@@ -31,7 +31,7 @@ def computer_selection() -> int:
 
 def check_win(user_num: int, computer_num: int) -> str:
     result_table = [[2, 0, 1],
-           		    [1, 2, 0],
+					[1, 2, 0],
              	    [0, 1, 2]]
     results = ["Lost", "Won", "Tied"]         	    
     return results[result_table[user_num][computer_num]]
